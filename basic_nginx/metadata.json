@@ -1,0 +1,18 @@
+{
+  "name": "angel-basic_nginx",
+  "version": "0.1.0",
+  "author": "angel",
+  "summary": "Basic proxy functions for NGINX with puppet",
+  "license": "Apache-2.0",
+  "source": "https://github.com/Angeloo89/nginx_basic_puppet",
+  "project_page": "https://github.com/Angeloo89/nginx_basic_puppet",
+  "issues_url": "https://github.com/Angeloo89/nginx_basic_puppet/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">= 1.0.0"
+    }
+  ],
+  "data_provider": null
+}
+
