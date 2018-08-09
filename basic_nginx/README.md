@@ -18,7 +18,9 @@ For this process, there will be followed these steps:
 #########################################################
 
 First of all, we have to have available a Linux machine, preferably Ubuntu to develope this procedure.
+
 -We can do it using VMware Workstation 14 Player and installing a VM from the ISO image found in the official Ubuntu webpage
+
 -Once we have Ubuntu VM up and running, we can get the following packages before start:
 
 ->Let's get the last updates from Ubuntu repository
