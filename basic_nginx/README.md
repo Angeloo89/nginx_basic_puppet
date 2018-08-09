@@ -8,7 +8,9 @@ For this process, there will be followed these steps:
 3-Modify and compile the following functions for the puppet:
 
 -A proxy to redirect requests for https://domain.com to 10.10.10.10 and another one to redirect requests for https://domain.com/resoure2 to 20.20.20.20.
+
 -A forward proxy to log HTTP requests going from the internal network to the Internet including: request protocol, remote IP and time take to serve the request.
+
 4-Test and verification of results
 
 #########################################################
