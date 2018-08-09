@@ -1,8 +1,12 @@
 This is a tutorial to create a Puppet module and change NGINX behaviour from puppet-nginx module with all the steps of the process to make it available in Ubuntu 18.04
 For this process, there will be followed these steps:
+
 1-Install Ubuntu 18.04 desktop as a VM with VMware Workstation 14 player
+
 2-Installing Puppet and nginx-puppet
+
 3-Modify and compile the following functions for the puppet:
+
 -A proxy to redirect requests for https://domain.com to 10.10.10.10 and another one to redirect requests for https://domain.com/resoure2 to 20.20.20.20.
 -A forward proxy to log HTTP requests going from the internal network to the Internet including: request protocol, remote IP and time take to serve the request.
 4-Test and verification of results
