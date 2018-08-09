@@ -37,7 +37,7 @@ $sudo apt-get update
 
 $sudo apt-get install puppet
 
--> We install puppet-nginx
+-> Install puppet-nginx
 
 $sudo puppet module install puppet-nginx
 
@@ -45,11 +45,11 @@ $sudo puppet module install puppet-nginx
 
 $sudo puppet module list
 
--> We can now execute the puppet to check if NGINX was correctly installed. Normally installed in the path of the output
+-> Now execute the puppet to check if NGINX was correctly installed. Normally installed in the path of the output
 
 $sudo puppet apply /etc/puppet/code/modules/nginx/examples/init.pp
 
--> and then we can see that the puppet will try to write in NGINX files (they must exist to be able to write)
+-> And then we can see that the puppet will try to write in NGINX files (they must exist to be able to write)
 
 
 
